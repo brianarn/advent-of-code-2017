@@ -1,7 +1,11 @@
 const fs = require('fs');
-const solver = require('./solver');
+const easySolver = require('./easy-solver');
+const hardSolver = require('./hard-solver');
 
 const input = fs.readFileSync('input.txt', 'utf-8').trim();
 
-const result = solver(input);
-console.log(`Result: ${result}`);
+const easyResult = easySolver(input);
+console.log(`Easy result: ${easyResult}`);
+
+const hardResult = hardSolver(input);
+console.log(`Hard result: ${hardResult}`);

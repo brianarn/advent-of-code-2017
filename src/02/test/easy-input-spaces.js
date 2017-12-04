@@ -1,6 +1,6 @@
 const tap = require('tap');
 
-const solver = require('../solver');
+const solver = require('../easy-solver');
 
 const input = `5 1 9 5
 7    5          3
