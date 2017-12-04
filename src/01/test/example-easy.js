@@ -1,6 +1,6 @@
 const tap = require('tap');
 
-const solver = require('../solver');
+const solver = require('../easy-solver');
 
 tap.equal(solver('1122'), 3);
 tap.equal(solver('1111'), 4);
