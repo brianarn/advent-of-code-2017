@@ -1,2 +1,3 @@
 # advent-of-code-2017
-My attempts at solving the Advent of Code challenge in 2017
+
+My attempts at solving [Advent of Code 2017](http://adventofcode.com/2017)
