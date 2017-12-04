@@ -5,5 +5,7 @@ if (process.env.LOGLEVEL) {
 }
 
 module.exports = function solver(input) {
+  log.debug(`Input received: ${input}`);
+
   return input;
 };
