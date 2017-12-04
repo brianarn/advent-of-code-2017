@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/brianarn/advent-of-code-2017#readme",
   "devDependencies": {
+    "loglevel": "1.6.0",
     "tap": "11.0.0"
   }
 }
