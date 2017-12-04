@@ -1,0 +1,22 @@
+{
+  "name": "advent-of-code-2017",
+  "version": "0.0.1",
+  "description": "Brian's solutions to Advent of Code 2017",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap src/**/test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianarn/advent-of-code-2017.git"
+  },
+  "author": "Brian Sinclair <brianarn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianarn/advent-of-code-2017/issues"
+  },
+  "homepage": "https://github.com/brianarn/advent-of-code-2017#readme",
+  "devDependencies": {
+    "tap": "11.0.0"
+  }
+}
