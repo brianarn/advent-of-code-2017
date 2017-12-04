@@ -17,7 +17,14 @@
   },
   "homepage": "https://github.com/brianarn/advent-of-code-2017#readme",
   "devDependencies": {
+    "ghooks": "2.0.2",
     "loglevel": "1.6.0",
     "tap": "11.0.0"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
   }
 }
