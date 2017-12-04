@@ -1,5 +1,5 @@
 const tap = require('tap');
 
-const solver = require('../solver');
+const solver = require('../easy-solver');
 
 tap.equal(solver('foo'), 'foo');
