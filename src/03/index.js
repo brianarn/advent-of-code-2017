@@ -1,7 +1,17 @@
 const fs = require('fs');
-const solver = require('./solver');
+const easySolver = require('./easy-solver');
+const hardSolver = require('./hard-solver');
 
 const input = fs.readFileSync('input.txt', 'utf-8').trim();
 
-const result = solver(input);
-console.log(`Result: ${result}`);
+const easyResult = easySolver(input);
+console.log(`Easy result: ${easyResult}`);
+
+// Start with the first square and build up
+let currentSquare = 0;
+let currentValue;
+do {
+  currentSquare++;
+  currentValue = hardSolver(currentSquare);
+} while (currentValue < input);
+console.log(`Hard result: ${currentValue} at square ${currentSquare}`);
