@@ -4,8 +4,8 @@ const hardSolver = require('./hard-solver');
 
 const input = fs.readFileSync('input.txt', 'utf-8').trim();
 
-const easyResult = solver(input);
+const easyResult = easySolver(input);
 console.log(`Easy result: ${easyResult}`);
 
-const hardResult = solver(input);
-console.log(`Hard result: ${hardResult}`);
+//const hardResult = hardSolver(input);
+//console.log(`Hard result: ${hardResult}`);
